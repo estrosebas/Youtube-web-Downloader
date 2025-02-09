@@ -1,0 +1,28 @@
+.video-input-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.video-input-form .form-control {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.video-input-form .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-input-form .btn:hover {
+    background-color: #0056b3;
+}
