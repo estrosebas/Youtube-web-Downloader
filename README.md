@@ -74,5 +74,4 @@ npm start
 Este proyecto está bajo la licencia **MIT**.
 
 ---
-📧 Contacto: estrosebas@gmail.com]
-
+📧 Contacto: estrosebas@gmail.com
