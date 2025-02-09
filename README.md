@@ -2,6 +2,8 @@
 
 Una aplicación web para descargar videos y audios en diferentes formatos desde una URL. Utiliza `yt-dlp` en el backend y una interfaz moderna en React.
 
+*Puedes probarlo [aquí](https://estrotools.ooguy.com/).*
+
 ## 🚀 Características
 - Buscar formatos de video y audio desde una URL.
 - Descargar videos en formato MP4.
@@ -53,7 +55,7 @@ npm start
 ```
 
 ## 📸 Capturas de Pantalla
-🖼️ *(Aquí puedes agregar imágenes de la interfaz de usuario)*
+![ejemplo de vista de la pagina](imagenes/ejemplo.png)
 
 ## 💡 Uso
 1. Ingresa la URL del video.
@@ -72,5 +74,5 @@ npm start
 Este proyecto está bajo la licencia **MIT**.
 
 ---
-📧 Contacto: [Tu correo o redes sociales]
+📧 Contacto: estrosebas@gmail.com]
 
