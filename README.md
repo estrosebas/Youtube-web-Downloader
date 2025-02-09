@@ -1,50 +1,76 @@
-# React + TypeScript + Vite
+# 📥 Video Downloader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web para descargar videos y audios en diferentes formatos desde una URL. Utiliza `yt-dlp` en el backend y una interfaz moderna en React.
 
-Currently, two official plugins are available:
+## 🚀 Características
+- Buscar formatos de video y audio desde una URL.
+- Descargar videos en formato MP4.
+- Descargar audios en formato M4A o MP3.
+- Interfaz atractiva y fácil de usar con `React Bootstrap`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Usadas
+- **Frontend:** React + TypeScript + Bootstrap
+- **Backend:** Node.js + Express + yt-dlp
+- **Base de datos:** No requiere almacenamiento persistente.
+- **Despliegue:** Servidor VPS con HTTPS mediante Let's Encrypt.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalación
+### 1️⃣ Clonar el repositorio
+```sh
+  git clone https://github.com/tu-repo/video-downloader.git
+  cd video-downloader
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2️⃣ Instalar dependencias
+#### Backend
+```sh
+cd backend
+npm install
 ```
+#### Frontend
+```sh
+cd frontend
+npm install
+```
+
+### 3️⃣ Configurar Variables de Entorno
+Crea un archivo `.env` en la carpeta `backend` con las siguientes variables:
+```env
+PORT=5021
+API_BASE_URL=https://estrotools.ooguy.com:5021
+```
+
+### 4️⃣ Ejecutar el Proyecto
+#### Iniciar el Backend
+```sh
+cd backend
+node back.js
+```
+#### Iniciar el Frontend
+```sh
+cd frontend
+npm start
+```
+
+## 📸 Capturas de Pantalla
+🖼️ *(Aquí puedes agregar imágenes de la interfaz de usuario)*
+
+## 💡 Uso
+1. Ingresa la URL del video.
+2. Selecciona el formato deseado (video o audio).
+3. Descarga el archivo con un clic.
+
+## 🤝 Contribuciones
+¡Se aceptan contribuciones! Para colaborar:
+1. Haz un fork del repositorio.
+2. Crea una rama nueva (`git checkout -b feature-nueva`).
+3. Realiza tus cambios y haz un commit (`git commit -m 'Añadir nueva función'`).
+4. Sube los cambios a tu repositorio (`git push origin feature-nueva`).
+5. Abre un Pull Request.
+
+## 📜 Licencia
+Este proyecto está bajo la licencia **MIT**.
+
+---
+📧 Contacto: [Tu correo o redes sociales]
+
