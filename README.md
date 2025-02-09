@@ -71,7 +71,8 @@ npm start
 5. Abre un Pull Request.
 
 ## 📜 Licencia
-Este proyecto está bajo la licencia **MIT**.
+Este proyecto está bajo la licencia **GNU GPLv3**. Consulta el archivo [LICENSE](./LICENSE) para más información.
 
 ---
 📧 Contacto: estrosebas@gmail.com
+
